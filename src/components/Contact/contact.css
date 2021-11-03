@@ -1,0 +1,24 @@
+.content {
+
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-list {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+
+.contact-list a {
+  padding: 10px;
+}
+
+.list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
