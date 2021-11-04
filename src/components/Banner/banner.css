@@ -1,0 +1,6 @@
+.image-banner {
+  height: 24rem;
+  background-image: url('../../assets/code.jpg');
+  background-attachment: fixed;
+  background-position:center;
+}
