@@ -2,11 +2,13 @@
 
 .projects {
   background-color: #0C1821;
+  color: #fff;
 }
 
 .projects h1, p {
   text-align: center;
-  color: white;
+  // color: white;
+  padding-top: 40px;
 }
 
 h1 {
@@ -97,6 +99,7 @@ h1 {
         width: 80%;
         height: 80%;
         background: #fff;
+        color: black;
         position: relative;
 
         h2 {

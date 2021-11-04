@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+}
+
+.text p {
+  color: black;
+  padding-bottom: 30px;
+}
+
+.socials a {
+  padding: 1em;
+  color: black;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 900px) {
+  .footer {
+    margin-top: 25em;
+  }
+}

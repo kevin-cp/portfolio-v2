@@ -3,8 +3,11 @@
   font-size: 1.4em;
 }
 
+.about h1 {
+  padding-bottom: 40px;
+}
+
 .presentation p {
-  color: black;
   text-align: justify
   ;
 }
@@ -18,11 +21,11 @@
     height: 100%;
     position: absolute;
     z-index: -1;
-    border: 2px solid #60A5FA;
+    border: 2px solid #60A5FA !important;
     transition: all .25s ease-out;
   }
   &::before {
-    background-color: #60A5FA;
+    background-color: #60A5FA !important;
     top: -20px;
     left: -80px;
   }

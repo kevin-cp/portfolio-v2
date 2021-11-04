@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-.App {
-  font-family: 'Montserrat', sans-serif;
+
+:root {
+  /* --bg-color: #fff; */
+  --text-color: #000;
 }
 
+[data-theme="dark"] {
+  --bg-color: #3F3F3F;
+  --text-color: #fff;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.toggle {
+  padding: 1em;
+}
