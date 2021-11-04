@@ -2,7 +2,7 @@ import React from "react";
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Profile from '../../assets/profile.jpg';
-import './about.css'
+import './about.scss'
 
 const About = () => (
   <Container className="about"> 
@@ -18,13 +18,35 @@ const About = () => (
               je vous laisse utiliser le formulaire de contact ou bien mes liens vers mes différents réseaux sociaux afin de me contacter.
           </p>
         </div>
+        
       </Grid>
-      <Grid item xs={4}>
+      <Grid item xs={12} md={4}>
         <div className="picture">
           <img src={Profile} alt="profil"></img>
         </div>  
       </Grid>
       </Grid>
+      <div className="competences">
+        <h3>Compétences techniques</h3>
+          <ul className="tech-list">
+            <li className="li-item">HTML</li>
+            <li className="li-item">CSS</li>
+            <li className="li-item">Javascript</li>
+            <li className="li-item">PHP</li>
+            <li className="li-item">Lumen</li>
+            <li className="li-item">Insomnia</li>
+            <li className="li-item">React/Redux</li>
+            <li className="li-item">Bootstrap</li>
+            <li className="li-item">Bulma</li>
+            <li className="li-item">Responsive</li>
+          </ul>
+      <h3>Langues</h3>
+    <ul className="language-list">
+      <li className="li-item">Français: Langue maternelle</li>
+      <li className="li-item">Portugais: Courant</li>
+      <li className="li-item">Anglais: Courant</li>
+    </ul>  
+  </div>  
   </Container>
 );
 

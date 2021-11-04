@@ -1,5 +1,6 @@
 import React from "react";
 import DarkModeIcon from '@mui/icons-material/DarkMode';
+import './header.css';
 
 const Header = () => (
   <div className="header">
