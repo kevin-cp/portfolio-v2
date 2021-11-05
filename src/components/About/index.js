@@ -1,8 +1,10 @@
 import React from "react";
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
+import Button from '@mui/material/Button';
 import Profile from '../../assets/profile.jpg';
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 import './about.scss'
 
@@ -24,8 +26,11 @@ const About = () => {
       <Grid item xs={12} md={4}>
         <div className="picture">
           <img className="profile-picture" src={Profile} alt="profil"></img>
-        </div>  
+        </div>
       </Grid>
+      <div className="resume_button">
+        <Button variant="contained"><Link to="/resume">{t('resume')}</Link></Button>
+      </div>
       </Grid>
       <div className="competences">
         <h3>{t('tech')}</h3>

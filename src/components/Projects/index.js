@@ -29,7 +29,7 @@ const Projects = () => {
 
                 <div class="container_infos">
                     <div class="postedBy">
-                        <span><a className="project-link" href="http://lenexus.surge.sh/login" target="_blank">Voir</a></span>
+                        <span><a className="project-link" href="http://lenexus.surge.sh/login" target="_blank">{t('see_website')}</a></span>
                         
                     </div>
 

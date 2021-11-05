@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Routes, Route} from "react-router-dom";
 import IconButton from '@mui/material/IconButton';
 import { pink } from '@mui/material/colors';
 import { useTranslation } from "react-i18next";
@@ -9,12 +10,9 @@ import FormControl from '@mui/material/FormControl';
 
 // components
 import './App.css';
-import Header from './components/Header';
-import About from './components/About';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import Banner from './components/Banner';
+import Homepage from "./components/Homepage";
 import Footer from './components/Footer';
+import Resume from "./components/Resume";
 
 // icons
 import DarkModeIcon from '@mui/icons-material/DarkMode';
@@ -46,7 +44,6 @@ const changeLanguageHandler = (e) => {
   i18n.changeLanguage(languageValue);
 }
 
-
   return (
     <div className="App" data-theme={darkMode ? "dark" : "light"}>
       <div className="top">
@@ -70,12 +67,10 @@ const changeLanguageHandler = (e) => {
         </Select>
         </FormControl>
       </div>
-      
-      <Header />
-      <About />
-      <Projects />
-      <Banner />
-      <Contact />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/resume" element={<Resume />} />
+      </Routes>
       <Footer />
     </div>
   );
