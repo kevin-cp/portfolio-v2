@@ -7,7 +7,7 @@
 }
 
 [data-theme="dark"] {
-  --bg-color: #3F3F3F;
+  --bg-color: #0C1821;
   --text-color: #fff;
 }
 
@@ -17,6 +17,18 @@
   color: var(--text-color);
 }
 
+.select {
+  background-color: white;
+  border-radius: 7px;
+}
+
+
 .toggle {
   padding: 1em;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }

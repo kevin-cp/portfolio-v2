@@ -1,0 +1,22 @@
+{
+  "text_presentation1": "Je m'appelle Kevin Capitao Peixoto, j'habite entre Versailles et Nantes.",
+  "text_presentation2": "Après plusieurs années à travailler dans d'autres domaines (notamment la logistique) et ayant toujours eu un intérêt pour l'informatique j'ai décidé dans l'aventure du dévelopement web par le biais de l'école O'Clock ou j'ai développé des compétences que j'ai mis en pratique par le biais d'un projet de fin de formation en équipe.",
+  "text_presentation3": "Je suis donc actuellement à la recherche d'un premier poste ou d'un stage. Ainsi, si mon profil vous intéresse, je vous laisse utiliser le formulaire de contact ou bien mes liens vers mes différents réseaux sociaux afin de me contacter.",
+  "welcome_to_my_website": "Bienvue sur mon site",
+  "tech": "Compétences techniques",
+  "language": "Langues",
+  "french": "Français: Langue maternelle",
+  "portuguese": "Portugais: Courant",
+  "english": "Anglais: Courant",
+  "projects": "Mes projets",
+  "projects_text": "Ici vous trouverez les projets que j'ai réalisé.",
+  "nexus": "Projet de fin de formation réailisé en équipe avec React et Symfony.",
+  "portfolio": "Le site que vous visitez actuellement.",
+  "contact" : "Vous souhaitez me contacter ?",
+  "contact_text": "Remplissez le formulaire et je vous répondrais au plus vite !",
+  "form_name": "Nom",
+  "form_mail": "Adresse Email",
+  "form_message": "Votre message",
+  "form_button": "envoyer"
+}
+

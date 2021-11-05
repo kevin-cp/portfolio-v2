@@ -1,15 +1,19 @@
 import React from 'react';
 import { Container } from '@mui/material';
+import { useTranslation } from "react-i18next";
 import './projects.scss';
 
 // import images
 import Portfolio from '../../assets/Portfolio.png';
 import Nexus from '../../assets/Nexus.png';
 
-const Projects = () => (
+const Projects = () => { 
+    const { t, i18n } = useTranslation();
+
+    return (
   <div className="projects">
-  <h1>Mes projets</h1>
-  <p>Ici vous trouverez les projets que j'ai réalisé.</p>
+  <h1>{t('projects')}</h1>
+  <p>{t('projects_text')}</p>
     <Container className="wrapper">
     <div class="card-container">
     <div class="post">
@@ -21,7 +25,7 @@ const Projects = () => (
             <div class="post_content">
 
                 <h2>Le Nexus</h2>
-                <p>Projet de fin de formation réailisé en équipe avec React et Symfony.</p>
+                <p>{t('nexus')}</p>
 
                 <div class="container_infos">
                     <div class="postedBy">
@@ -43,13 +47,14 @@ const Projects = () => (
             <div class="post_content">
 
                 <h2>Mon portfolio</h2>
-                <p>Le site que vous visitez actuellement.</p>  
+                <p>{t('portfolio')}</p>  
             </div>
         </div>
     </div>
 </div>
   </Container>
   </div>
-);
+)
+    };
 
 export default Projects;

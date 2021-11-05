@@ -1,6 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import { Container, Grid, TextField, Button } from '@mui/material';
+import { useTranslation } from "react-i18next";
 import './contact.css';
 
 // icons
@@ -22,12 +23,14 @@ const Contact = () => {
       e.target.reset();
   }
 
+  const { t, i18n } = useTranslation();
+
 return (
   <div className="content">
   <Container className="contact">
     <div className="contact-text">
-        <h1>Vous souhaitez me contacter ?</h1>
-        <p>Remplissez le formulaire et je vous répondrais au plus vite !</p>
+        <h1>{t('contact')}</h1>
+        <p>{t('contact_text')}</p>
     </div>
     <Grid container spacing={2}>
       <Grid item xs={12} md={4}>
@@ -48,7 +51,7 @@ return (
               required
               fullWidth
               id="name"
-              label="Nom"
+              label={t('form_name')}
               name="name"
               autoComplete="name"
               autoFocus
@@ -59,7 +62,7 @@ return (
               required
               fullWidth
               id="email"
-              label="Adresse Email"
+              label={t('form_mail')}
               name="email"
               autoComplete="email"
               autoFocus
@@ -67,7 +70,7 @@ return (
           <TextField
             required
             id="outlined-multiline-static"
-            label="Votre message"
+            label={t('form_message')}
             name="message"
             multiline
             fullWidth
@@ -79,7 +82,7 @@ return (
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Envoyer
+              {t('form_button')}
             </Button>
           </form>
         </div>

@@ -1,0 +1,21 @@
+{
+  "text_presentation1": "My name is Kevin Capitao Peixoto, I live between Versailles and Nantes.",
+  "text_presentation2": "After several years working in other fields (including logistics) and having always had an interest in computer science I decided to start web development through the O'Clock school where I developed skills that I put into practice through a team project. I am currently looking for a first job or an internship.",
+  "text_presentation3": "So, if you are interested in my profile, I let you use the contact form or my links to my various social networks to contact me.",
+  "welcome_to_my_website": "Welcome to my website",
+  "tech": "Technical skillss",
+  "language": "Languages",
+  "french": "French: Native",
+  "portuguese": "Portuguese: Fluent",
+  "english": "English: Fluent",
+  "projects": "My work",
+  "projects_text": "Here you'll find find everything I've worked on.",
+  "nexus": "End-of-training project created as a team with React and Symfony.",
+  "portfolio": "The website you are currently visiting",
+  "contact" : "Want to contact me ?",
+  "contact_text": "Fill up the form and I'll get back to you ASAP !",
+  "form_name": "Name",
+  "form_mail": "Email Adress",
+  "form_message": "Your message",
+  "form_button": "send"
+}
