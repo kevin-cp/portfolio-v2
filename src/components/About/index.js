@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import './about.scss'
 
 const About = () => {
+  // for the translation
   const { t, i18n } = useTranslation();
 
   return (

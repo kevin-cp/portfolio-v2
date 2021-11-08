@@ -28,3 +28,9 @@
     margin-top: 25em;
   }
 }
+
+@media screen and (max-height: 950px) {
+  .footer {
+    margin-top: 40em;
+  }
+}

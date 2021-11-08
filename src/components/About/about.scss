@@ -91,3 +91,10 @@
 .language-list {
   margin-bottom: 70px;
 }
+
+@media screen and (max-width: 600px) {
+  .presentation {
+    width: 100%;
+    font-size: 1.1em;
+  }
+}

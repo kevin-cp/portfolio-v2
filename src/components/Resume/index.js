@@ -13,7 +13,7 @@ const Resume = () => {
   <Container className="resume">
     <h1>{t('resume_title')}</h1>
     <div className="image">
-      <img src={ResumeImg} />
+      <img src={ResumeImg} alt="resume" />
     </div>
     <div className="resume_button">
         <Button variant="contained"><Link to="/">Home</Link></Button>
