@@ -19,7 +19,7 @@
     "react-i18next": "^11.13.0",
     "react-router-dom": "^6.0.0",
     "react-scripts": "4.0.3",
-    "sass": "^1.43.4",
+    "sass": "^1.45.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
